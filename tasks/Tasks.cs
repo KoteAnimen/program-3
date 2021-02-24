@@ -36,5 +36,15 @@ namespace tasks
             }
             return summ;
         }
+        public static double[] Task4(double[] b)
+        {
+            double[] a = new double[b.Length];
+            int j = b.Length - 1;
+            for(int i = 0; i < j + 1; i++)
+            {
+                a[i] = b[i] / (j + 1);
+            }
+            return a;
+        }
     }
 }
