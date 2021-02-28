@@ -46,5 +46,36 @@ namespace tasks
             }
             return a;
         }
+
+        public static void Task5(out double[,] matr1, out double[] massMax, out double[,] changeMatr)
+        {
+            Random random = new Random();
+            int row = random.Next(2, 6);
+            int column = random.Next(2, 6);
+            matr1 = new double[row, column];
+            //Генерируем матрицу
+            for (int i = 0; i < row; i++)
+            {
+                for (int j = 0; j < column; j++)
+                {
+                    matr1[i, j] = random.Next(-5, 5);
+                }
+            }
+            massMax = new double[column];
+            for(int j = 0; j < column; j++)
+            {
+                double current = matr1[0, j];
+                for(int i = 1; i < row; i++)
+                {
+                    if(matr1[i,j] > current)
+                    {
+                        current = matr1[i, j];
+                    }
+                }
+                massMax[j] = current;
+            }
+            changeMatr = new double[row, column];
+
+        }
     }
 }
