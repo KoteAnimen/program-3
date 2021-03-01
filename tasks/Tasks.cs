@@ -51,7 +51,7 @@ namespace tasks
         {
             Random random = new Random();
             int row = random.Next(2, 6);
-            int column = random.Next(2, 6);
+            int column = random.Next(2, 6);            
             matr1 = new double[row, column];
             //Генерируем матрицу
             for (int i = 0; i < row; i++)
@@ -75,7 +75,34 @@ namespace tasks
                 massMax[j] = current;
             }
             changeMatr = new double[row, column];
-
+            int position1 = 0;
+            int position2 = 0;
+            int position3 = 0;
+            int position4 = 0;
+            for (int i = 0; i < row; i++)
+            {
+                for(int j = 0; j < column; j++)
+                {
+                    if(matr1[i,j] < 0)
+                    {
+                        position1 = i;
+                        position2 = j;
+                        break;
+                    }
+                }
+                for (int j = 0; j < column; j++)
+                {
+                    if (matr1[i, j] > 0)
+                    {
+                        position3 = i;
+                        position4 = j;                        
+                    }
+                }
+            }
+            changeMatr = matr1;
+            double glass = changeMatr[position1, position2];
+            changeMatr[position1, position2] = changeMatr[position3, position4];
+            changeMatr[position3, position4] = glass;            
         }
     }
 }

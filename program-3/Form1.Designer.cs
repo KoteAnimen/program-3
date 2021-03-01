@@ -31,22 +31,14 @@ namespace program_3
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.AboutUs = new System.Windows.Forms.ToolStripMenuItem();
-            this.Exit = new System.Windows.Forms.ToolStripMenuItem();
-            this.task1X = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.GetAnswerTask1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.answerTask1 = new System.Windows.Forms.TextBox();
-            this.GetAnswerTask1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.task1X = new System.Windows.Forms.TextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.GetAnswerTask2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,6 +46,7 @@ namespace program_3
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.task2X = new System.Windows.Forms.TextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.GetAnswerTask3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -61,29 +54,36 @@ namespace program_3
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.task3X = new System.Windows.Forms.TextBox();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.GenerateMassTask4 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
+            this.answerTask4 = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.massTask4 = new System.Windows.Forms.TextBox();
-            this.answerTask4 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.GenerateMassTask4 = new System.Windows.Forms.Button();
-            this.matrixTask5 = new System.Windows.Forms.RichTextBox();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
             this.GetMatrixTask5 = new System.Windows.Forms.Button();
+            this.matrixTask5 = new System.Windows.Forms.RichTextBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.файлToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AboutUs = new System.Windows.Forms.ToolStripMenuItem();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.tabPage5.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.tabPage4.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
+            this.tabPage5.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -111,119 +111,6 @@ namespace program_3
             this.tabPage1.Text = "Задача 1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.groupBox3);
-            this.tabPage2.Controls.Add(this.groupBox4);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(283, 230);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Задача 2";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.groupBox5);
-            this.tabPage3.Controls.Add(this.groupBox6);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(283, 230);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Задача 3";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Controls.Add(this.groupBox7);
-            this.tabPage4.Controls.Add(this.groupBox8);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(283, 230);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Задача 4";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Controls.Add(this.GetMatrixTask5);
-            this.tabPage5.Controls.Add(this.matrixTask5);
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Size = new System.Drawing.Size(283, 230);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Задача 5";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.файлToolStripMenuItem,
-            this.справкаToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(316, 24);
-            this.menuStrip1.TabIndex = 1;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // файлToolStripMenuItem
-            // 
-            this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.Exit});
-            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.файлToolStripMenuItem.Text = "Файл";
-            // 
-            // справкаToolStripMenuItem
-            // 
-            this.справкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.AboutUs});
-            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
-            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
-            this.справкаToolStripMenuItem.Text = "Справка";
-            // 
-            // AboutUs
-            // 
-            this.AboutUs.Name = "AboutUs";
-            this.AboutUs.Size = new System.Drawing.Size(180, 22);
-            this.AboutUs.Text = "О программе";
-            this.AboutUs.Click += new System.EventHandler(this.AboutUs_Click);
-            // 
-            // Exit
-            // 
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(180, 22);
-            this.Exit.Text = "Выход";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            // 
-            // task1X
-            // 
-            this.task1X.Location = new System.Drawing.Point(6, 35);
-            this.task1X.Name = "task1X";
-            this.task1X.Size = new System.Drawing.Size(259, 20);
-            this.task1X.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Введите X";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.task1X);
-            this.groupBox1.Location = new System.Drawing.Point(6, 6);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(271, 68);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Исходные данные";
-            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.GetAnswerTask1);
@@ -235,6 +122,17 @@ namespace program_3
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Решение";
+            // 
+            // GetAnswerTask1
+            // 
+            this.GetAnswerTask1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GetAnswerTask1.Location = new System.Drawing.Point(6, 77);
+            this.GetAnswerTask1.Name = "GetAnswerTask1";
+            this.GetAnswerTask1.Size = new System.Drawing.Size(259, 42);
+            this.GetAnswerTask1.TabIndex = 2;
+            this.GetAnswerTask1.Text = "Решить задачу";
+            this.GetAnswerTask1.UseVisualStyleBackColor = true;
+            this.GetAnswerTask1.Click += new System.EventHandler(this.GetAnswerTask1_Click);
             // 
             // label2
             // 
@@ -253,15 +151,44 @@ namespace program_3
             this.answerTask1.Size = new System.Drawing.Size(259, 20);
             this.answerTask1.TabIndex = 0;
             // 
-            // GetAnswerTask1
+            // groupBox1
             // 
-            this.GetAnswerTask1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GetAnswerTask1.Location = new System.Drawing.Point(6, 77);
-            this.GetAnswerTask1.Name = "GetAnswerTask1";
-            this.GetAnswerTask1.Size = new System.Drawing.Size(259, 42);
-            this.GetAnswerTask1.TabIndex = 2;
-            this.GetAnswerTask1.Text = "Решить задачу";
-            this.GetAnswerTask1.UseVisualStyleBackColor = true;
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.task1X);
+            this.groupBox1.Location = new System.Drawing.Point(6, 6);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(271, 68);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Исходные данные";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 16);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(59, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Введите X";
+            // 
+            // task1X
+            // 
+            this.task1X.Location = new System.Drawing.Point(6, 35);
+            this.task1X.Name = "task1X";
+            this.task1X.Size = new System.Drawing.Size(259, 20);
+            this.task1X.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.groupBox3);
+            this.tabPage2.Controls.Add(this.groupBox4);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(283, 230);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Задача 2";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox3
             // 
@@ -284,6 +211,7 @@ namespace program_3
             this.GetAnswerTask2.TabIndex = 2;
             this.GetAnswerTask2.Text = "Решить задачу";
             this.GetAnswerTask2.UseVisualStyleBackColor = true;
+            this.GetAnswerTask2.Click += new System.EventHandler(this.GetAnswerTask2_Click);
             // 
             // label3
             // 
@@ -329,6 +257,17 @@ namespace program_3
             this.task2X.Size = new System.Drawing.Size(259, 20);
             this.task2X.TabIndex = 0;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.groupBox5);
+            this.tabPage3.Controls.Add(this.groupBox6);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(283, 230);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Задача 3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.GetAnswerTask3);
@@ -350,6 +289,7 @@ namespace program_3
             this.GetAnswerTask3.TabIndex = 2;
             this.GetAnswerTask3.Text = "Решить задачу";
             this.GetAnswerTask3.UseVisualStyleBackColor = true;
+            this.GetAnswerTask3.Click += new System.EventHandler(this.GetAnswerTask3_Click);
             // 
             // label5
             // 
@@ -395,6 +335,17 @@ namespace program_3
             this.task3X.Size = new System.Drawing.Size(259, 20);
             this.task3X.TabIndex = 0;
             // 
+            // tabPage4
+            // 
+            this.tabPage4.Controls.Add(this.groupBox7);
+            this.tabPage4.Controls.Add(this.groupBox8);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(283, 230);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Задача 4";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.GenerateMassTask4);
@@ -406,6 +357,34 @@ namespace program_3
             this.groupBox7.TabIndex = 5;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Решение";
+            // 
+            // GenerateMassTask4
+            // 
+            this.GenerateMassTask4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.GenerateMassTask4.Location = new System.Drawing.Point(6, 68);
+            this.GenerateMassTask4.Name = "GenerateMassTask4";
+            this.GenerateMassTask4.Size = new System.Drawing.Size(259, 72);
+            this.GenerateMassTask4.TabIndex = 2;
+            this.GenerateMassTask4.Text = "Сгенерировать исходный массив и получить результат";
+            this.GenerateMassTask4.UseVisualStyleBackColor = true;
+            this.GenerateMassTask4.Click += new System.EventHandler(this.GenerateMassTask4_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(7, 20);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(110, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Полученный массив";
+            // 
+            // answerTask4
+            // 
+            this.answerTask4.Location = new System.Drawing.Point(7, 41);
+            this.answerTask4.Name = "answerTask4";
+            this.answerTask4.ReadOnly = true;
+            this.answerTask4.Size = new System.Drawing.Size(258, 20);
+            this.answerTask4.TabIndex = 0;
             // 
             // groupBox8
             // 
@@ -421,44 +400,20 @@ namespace program_3
             // 
             this.massTask4.Location = new System.Drawing.Point(7, 19);
             this.massTask4.Name = "massTask4";
+            this.massTask4.ReadOnly = true;
             this.massTask4.Size = new System.Drawing.Size(258, 20);
             this.massTask4.TabIndex = 0;
             // 
-            // answerTask4
+            // tabPage5
             // 
-            this.answerTask4.Location = new System.Drawing.Point(7, 41);
-            this.answerTask4.Name = "answerTask4";
-            this.answerTask4.ReadOnly = true;
-            this.answerTask4.Size = new System.Drawing.Size(258, 20);
-            this.answerTask4.TabIndex = 0;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 20);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(110, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Полученный массив";
-            // 
-            // GenerateMassTask4
-            // 
-            this.GenerateMassTask4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.GenerateMassTask4.Location = new System.Drawing.Point(6, 68);
-            this.GenerateMassTask4.Name = "GenerateMassTask4";
-            this.GenerateMassTask4.Size = new System.Drawing.Size(259, 72);
-            this.GenerateMassTask4.TabIndex = 2;
-            this.GenerateMassTask4.Text = "Сгенерировать исходный массив и получить результат";
-            this.GenerateMassTask4.UseVisualStyleBackColor = true;
-            // 
-            // matrixTask5
-            // 
-            this.matrixTask5.Location = new System.Drawing.Point(13, 17);
-            this.matrixTask5.Name = "matrixTask5";
-            this.matrixTask5.ReadOnly = true;
-            this.matrixTask5.Size = new System.Drawing.Size(251, 155);
-            this.matrixTask5.TabIndex = 0;
-            this.matrixTask5.Text = "";
+            this.tabPage5.Controls.Add(this.GetMatrixTask5);
+            this.tabPage5.Controls.Add(this.matrixTask5);
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Size = new System.Drawing.Size(283, 230);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "Задача 5";
+            this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // GetMatrixTask5
             // 
@@ -469,6 +424,57 @@ namespace program_3
             this.GetMatrixTask5.TabIndex = 1;
             this.GetMatrixTask5.Text = "Получить матрицу";
             this.GetMatrixTask5.UseVisualStyleBackColor = true;
+            this.GetMatrixTask5.Click += new System.EventHandler(this.GetMatrixTask5_Click);
+            // 
+            // matrixTask5
+            // 
+            this.matrixTask5.Location = new System.Drawing.Point(13, 17);
+            this.matrixTask5.Name = "matrixTask5";
+            this.matrixTask5.ReadOnly = true;
+            this.matrixTask5.Size = new System.Drawing.Size(251, 155);
+            this.matrixTask5.TabIndex = 0;
+            this.matrixTask5.Text = "";
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.файлToolStripMenuItem,
+            this.справкаToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(316, 24);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // файлToolStripMenuItem
+            // 
+            this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Exit});
+            this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
+            this.файлToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.файлToolStripMenuItem.Text = "Файл";
+            // 
+            // Exit
+            // 
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(108, 22);
+            this.Exit.Text = "Выход";
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            // 
+            // справкаToolStripMenuItem
+            // 
+            this.справкаToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.AboutUs});
+            this.справкаToolStripMenuItem.Name = "справкаToolStripMenuItem";
+            this.справкаToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.справкаToolStripMenuItem.Text = "Справка";
+            // 
+            // AboutUs
+            // 
+            this.AboutUs.Name = "AboutUs";
+            this.AboutUs.Size = new System.Drawing.Size(149, 22);
+            this.AboutUs.Text = "О программе";
+            this.AboutUs.Click += new System.EventHandler(this.AboutUs_Click);
             // 
             // Form1
             // 
@@ -487,28 +493,28 @@ namespace program_3
             this.Text = "Практическая работа №3";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage5.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.tabPage4.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            this.tabPage5.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
