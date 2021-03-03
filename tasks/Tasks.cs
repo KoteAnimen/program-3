@@ -29,10 +29,10 @@ namespace tasks
             double a = 1;
             double b = 2;
             for(int i = 0; i < n; i++)
-            {
+            {                
+                summ += a / b;
                 a += 2;
                 b += 2;
-                summ += a / b;
             }
             return summ;
         }

@@ -30,5 +30,11 @@ namespace UnitTest
             Assert.AreEqual(5.0892088326460848, Tasks.Task2(4), .001);
         }
 
+        [TestMethod]
+        public void TestMethod5()
+        {
+            Assert.AreEqual(1.25, Tasks.Task3(2), .001);
+        }
+
     }
 }
