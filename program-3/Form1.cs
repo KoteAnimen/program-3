@@ -70,13 +70,14 @@ namespace program_3
         private void GenerateMassTask4_Click(object sender, EventArgs e)
         {
             Random random = new Random();
-            double[] b = new double[random.Next(3, 6)];
+            double[] b = new double[random.Next(3, 6)];            
             for(int i = 0; i < b.Length; i++)
             {
                 b[i] = random.Next(-5, 5);
-                massTask4.Text += Convert.ToString(b) + " ";
+                massTask4.Text += Convert.ToString(b[i]) + " ";
+                answerTask4.Text += Convert.ToString(Tasks.Task4(b)[i]) + " ";
             }            
-            answerTask4.Text = Convert.ToString(Tasks.Task4(b));
+            
         }
 
         private void GetMatrixTask5_Click(object sender, EventArgs e)
