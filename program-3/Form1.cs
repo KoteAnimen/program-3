@@ -20,7 +20,7 @@ namespace program_3
 
         private void AboutUs_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Филяк ИСП-31, вариант 10", "О программе");
+            MessageBox.Show("Филяк ИСП-31, вариант 19", "О программе");
         }
 
         private void Exit_Click(object sender, EventArgs e)

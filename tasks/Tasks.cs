@@ -20,7 +20,7 @@ namespace tasks
         {
             double z;
             double y = 1.2;
-            z = Math.Sqrt(x * x * x * x - 64) * Math.Pow(Math.Abs((Math.Log10(y) + Math.Cos(x * x)) / (4 * x + 5)),1/3);
+            z = Math.Sqrt(Math.Pow(x,4) - 64) * Math.Pow(Math.Abs((Math.Log10(y) + Math.Cos(x * x)) / (4 * x + 5)),1/3);
             return z;
         }
         public static double Task3(int n)
